@@ -1,0 +1,42 @@
+@import "../../css/variables";
+
+.filter-container {
+ background: #fff;
+ transform: translateY(-50%);
+ padding: 1rem 1rem 0 1rem;
+ margin: 0 1rem;
+ border-radius: 5px;
+ box-shadow: 0px 10px 21px 2px rgba(175, 199, 199, 0.507);
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.display-flex {
+ display: flex;
+}
+
+.flex-wrap {
+ flex-wrap: wrap;
+}
+
+.btn-clear {
+ background: none;
+ border: none;
+ color: hsl(0, 0%, 60%);
+ font-weight: bold;
+ font-size: 1rem;
+ margin: 0 0 1rem 0;
+
+ &:hover {
+  cursor: pointer;
+ }
+}
+
+@media (min-width:1024px) {
+ .filter-container {
+  padding: 1rem 2rem 0 2rem;
+  margin: 0 $desktopPadding;
+ }
+
+}

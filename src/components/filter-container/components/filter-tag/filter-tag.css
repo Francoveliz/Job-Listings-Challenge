@@ -1,0 +1,40 @@
+.filter-tag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 1rem 1rem 0;
+}
+
+.filter-tag p {
+  border-radius: 5px 0 0 5px;
+  background-color: #cdefef;
+  padding: .5rem;
+  text-align: start;
+  color: #478585;
+  font-weight: bold;
+}
+
+.filter-tag button {
+  background-color: #478585;
+  border: none;
+  color: #fff;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  padding: .5rem;
+  border-radius: 0 5px 5px 0;
+  line-height: 0;
+}
+
+.filter-tag button:hover {
+  cursor: pointer;
+}
+
+.filter-tag button img {
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=FilterTag.css.map */

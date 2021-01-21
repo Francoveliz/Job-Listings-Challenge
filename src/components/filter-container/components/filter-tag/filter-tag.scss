@@ -1,0 +1,35 @@
+@import "../../../css/variables";
+
+.filter-tag {
+ display: flex;
+ align-items: center;
+ margin: 0 1rem 1rem 0;
+
+ p {
+  border-radius: 5px 0 0 5px;
+  background-color: $light_grayish_cyan;
+  padding: .5rem;
+  text-align: start;
+  color: hsl(180, 30%, 40%);
+  font-weight: bold;
+ }
+
+ button {
+  background-color: hsl(180, 30%, 40%);
+  border: none;
+  color: #fff;
+  align-self: stretch;
+  padding: .5rem;
+  border-radius: 0 5px 5px 0;
+  line-height: 0;
+
+  &:hover {
+   cursor: pointer;
+  }
+
+  img {
+   padding: 0;
+   margin: 0;
+  }
+ }
+}
